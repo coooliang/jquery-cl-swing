@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+		<title>first html5 page</title>
+		<link rel="stylesheet" type="text/css" href="../resources/jquery.cl.swing-2.1.4.css">
+ 		<script type="text/javascript" src="../resources/jquery-2.1.4.min.js"></script>
+ 		<script type="text/javascript" src="../resources/jquery.cl.swing-2.1.4.js"></script>
+ 		<script type="text/javascript">
+ 			$(function(){
+				JSwingOptions.JFontDefault = 'KaiTi';
+
+ 			})
+
+ 			$(function(){
+
+				var button = new JButton('button11',new JRectMake(700,130,100,20));
+				// button.addClickListener(function(sender){
+				// 	// alert(sender.getTitle());
+				// });
+				// // button.addClass("pill");
+				// // button.setCursor("wait");
+				window.add(button);
+
+				var panel = new JPanel(); 	
+				panel.setTitle('this is my First JPanel');
+				panel.setFrame(new JRectMake(100,40,400,300));
+ 				panel.showToggleBtn(true);
+ 				panel.showTitle(true);
+ 				panel.load('JPanel-test.html',{'a':1},function(){
+
+ 				});
+
+ 				window.add(panel);
+
+ 				var msg = new JMessageBox();
+ 				msg.setOrigin(540,0);
+ 				msg.show();
+ 				// window.add(msg);
+				// var button1 = new JButton("这是一个按钮",new JRectMake(button.getFrame().x + button.getFrame().width,button.getFrame().y,100,20));
+				// panel.add(button1);
+
+				// var button2 = new JButton();
+				// button2.setFrame(new JRectMake(10,40,100,30));
+				// window.add(button2);
+
+				// window.add(panel);
+
+
+ 			})
+ 		</script>
+	</head>
+    <body>
+	</body>
+</html>

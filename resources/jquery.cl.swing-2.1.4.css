@@ -1,0 +1,287 @@
+/* ------------------------------------------
+ * CSS3 GITHUB BUTTONS (Nicolas Gallagher)
+ * Licensed under Unlicense
+ * http://github.com/necolas/css3-github-buttons
+ * --------------------------------------- */
+
+
+/* =============================================================================
+   Base Button
+   ========================================================================== */
+.x-btn{font:normal 11px tahoma,verdana,helvetica;cursor:pointer;white-space:nowrap;}
+.x-btn button{border:0 none;background:transparent;font:normal 11px tahoma,verdana,helvetica;padding-left:3px;padding-right:3px;cursor:pointer;margin:0;overflow:visible;width:auto;-moz-outline:0 none;outline:0 none;}
+* html .ext-ie .x-btn button{width:1px;}
+.ext-gecko .x-btn button{padding-left:0;padding-right:0;}
+.ext-ie .x-btn button{padding-top:2px;}
+.x-btn-icon .x-btn-center .x-btn-text{background-position:center;background-repeat:no-repeat;height:16px;width:16px;cursor:pointer;white-space:nowrap;padding:0;}
+.x-btn-icon .x-btn-center{padding:1px;}
+.x-btn em{font-style:normal;font-weight:normal;}
+.x-btn-text-icon .x-btn-center .x-btn-text{background-position:0 2px;background-repeat:no-repeat;padding-left:18px;padding-top:3px;padding-bottom:2px;padding-right:0;}
+.x-btn-left,.x-btn-right{font-size:1px;line-height:1px;}
+.x-btn-left{width:3px;height:21px;background:url(images/btn-sprite.gif) no-repeat 0 0;}
+.x-btn-right{width:3px;height:21px;background:url(images/btn-sprite.gif) no-repeat 0 -21px;}
+.x-btn-left i,.x-btn-right i{display:block;width:3px;overflow:hidden;font-size:1px;line-height:1px;}
+.x-btn-center{background:url(images/btn-sprite.gif) repeat-x 0 -42px;vertical-align:middle;text-align:center;padding:0 5px;cursor:pointer;white-space:nowrap;}
+.x-btn-over .x-btn-left{background-position:0 -63px;}
+.x-btn-over .x-btn-right{background-position:0 -84px;}
+.x-btn-over .x-btn-center{background-position:0 -105px;}
+.x-btn-click .x-btn-center,.x-btn-menu-active .x-btn-center{background-position:0 -126px;}
+.x-btn-disabled *{color:gray!important;cursor:default!important;}
+.x-btn-menu-text-wrap .x-btn-center{padding:0 3px;}
+.ext-gecko .x-btn-menu-text-wrap .x-btn-center{padding:0 1px;}
+.x-btn-menu-arrow-wrap .x-btn-center{padding:0;}
+.x-btn-menu-arrow-wrap .x-btn-center button{width:12px!important;height:21px;padding:0!important;display:block;background:transparent url(images/btn-arrow.gif) no-repeat left 3px;}
+.x-btn-with-menu .x-btn-center{padding-right:2px!important;}
+.x-btn-with-menu .x-btn-center em{display:block;background:transparent url(../images/default/toolbar/btn-arrow.gif) no-repeat right 0;padding-right:10px;}
+.x-btn-text-icon .x-btn-with-menu .x-btn-center em{display:block;background:transparent url(../images/default/toolbar/btn-arrow.gif) no-repeat right 3px;padding-right:10px;}
+.x-btn-pressed .x-btn-left{background:url(images/btn-sprite.gif) no-repeat 0 -63px;}
+.x-btn-pressed .x-btn-right{background:url(images/btn-sprite.gif) no-repeat 0 -84px;}
+.x-btn-pressed .x-btn-center{background:url(images/btn-sprite.gif) repeat-x 0 -126px;}
+
+
+
+
+
+
+/* =============================================================================
+   Base Panel
+   ========================================================================== */
+.cl-swing-panel .container{
+    display: block;
+    font-family: verdana, tahoma, helvetica;
+    font-size: 13px;
+    /*height: 287px;*/
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /*width: 1219px;*/
+}
+.cl-swing-panel .container .x-panel{
+    border-bottom-color: rgb(153, 187, 232);
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-left-color: rgb(153, 187, 232);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(153, 187, 232);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(153, 187, 232);
+    border-top-style: solid;
+    border-top-width: 0px;
+    display: block;
+    font-family: verdana, tahoma, helvetica;
+    font-size: 13px;
+    /*height: 287px;*/
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    /*width: 400px;*/
+}
+
+.cl-swing-panel .container .x-panel .x-panel-header{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(images/cl-swing-panel-white-top-bottom.gif);
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(153, 187, 232);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(153, 187, 232);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(153, 187, 232);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(153, 187, 232);
+    border-top-style: solid;
+    border-top-width: 0px;
+    color: rgb(21, 66, 139);
+    display: block;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 11px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-top: 5px;
+    /*width: 390px;*/
+    zoom: 1;
+}
+
+.cl-swing-panel .container .x-panel .x-panel-header .x-tool{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(images/cl-swing-tool-sprites.gif);
+    background-origin: padding-box;
+    background-position: 0px -60px;
+    background-size: auto;
+    color: rgb(21, 66, 139);
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 15px;
+    zoom: 1;
+}
+.cl-swing-panel .container .x-panel .x-panel-header .x-panel-header-text{
+    color: rgb(21, 66, 139);
+    display: inline;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: auto;
+    line-height: 15px;
+    width: auto;
+    zoom: 1;
+}
+.cl-swing-panel .container .x-panel .x-panel-bwrap{
+    display: block;
+    font-family: verdana, tahoma, helvetica;
+    font-size: 13px;
+    /*height: 261px;*/
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    /*width: 400px;*/
+    zoom: 1;
+}
+
+.cl-swing-panel .container .x-panel .x-panel-bwrap .x-panel-body{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(153, 187, 232);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(153, 187, 232);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(153, 187, 232);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: none;
+    border-top-width: 0px;
+    display: block;
+    font-family: verdana, tahoma, helvetica;
+    font-size: 13px;
+    /*height: 260px;*/
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    /*width: 398px;*/
+    zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+/* =============================================================================
+   MessageBox
+   ========================================================================== */
+.msg .x-box-mc {
+    font-size:14px;
+}
+
+#msg-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:250px;
+    z-index:20000;
+}
+
+.x-box-tl{background:transparent url(images/corners.gif) no-repeat 0 0;zoom:1;}
+.x-box-tc{height:8px;background:transparent url(images/tb.gif) repeat-x 0 0;overflow:hidden;}
+.x-box-tr{background:transparent url(images/corners.gif) no-repeat right -8px;}
+.x-box-ml{background:transparent url(images/l.gif) repeat-y 0;padding-left:4px;overflow:hidden;zoom:1;}
+.x-box-mc{background:#eee url(images/tb.gif) repeat-x 0 -16px;padding:4px 10px;font-family:"Myriad Pro","Myriad Web","Tahoma","Helvetica","Arial",sans-serif;color:#393939;font-size:12px;}
+.x-box-mc h3{font-size:14px;font-weight:bold;margin:0 0 4px 0;zoom:1;}
+.x-box-mr{background:transparent url(images/r.gif) repeat-y right;padding-right:4px;overflow:hidden;}
+.x-box-bl{background:transparent url(images/corners.gif) no-repeat 0 -16px;zoom:1;}
+.x-box-bc{background:transparent url(images/tb.gif) repeat-x 0 -8px;height:8px;overflow:hidden;}
+.x-box-br{background:transparent url(images/corners.gif) no-repeat right -24px;}
+.x-box-tl,.x-box-bl{padding-left:8px;overflow:hidden;}
+.x-box-tr,.x-box-br{padding-right:8px;overflow:hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
